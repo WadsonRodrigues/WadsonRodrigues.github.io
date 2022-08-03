@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    
+</head>
+<body>
+    <div id="contato" style="text-align: center;">
+        <p>
+            <img src="contato.jpg" alt="imagem 6 - contato" 
+            width="345" 
+            height="345"
+            title="Foto contato">
+        </p>
+    </div>
+
+    <h1 style="text-align: center;">BARBEARIA CORTE RETO</h1>
+
+    <ul style="font-size: 20px;">
+        <li> <a href="barbearia.html"> Home</a> </li>
+        <li><a href="produtos.html"> Produtos</a></li>
+    </ul>
+
+
+
+    <h2 style="text-align: center; border: solid 5px;">Preencha sua reserva</h2>
+
+    <h2>Dados Pessoais</h2>
+    <form autocomplete="on" method="POST">
+    <fieldset>
+        <legend>Cadastro do Cliente</legend>
+        Nome completo: <br><input type="text" name = "nome" id = "" placeholder="Digite seu nome" style="width: 360px;" required>  <br><br>
+        Email: <br><input type="text" name = "nome" id = "" placeholder="Digite seu email"  style="width: 360px;" required>  <br><br>
+        Celular: <br><input type="text" name = "nome" id = "" placeholder="(XX) XXXXX-XXXX)" style="width: 360px;" required>  <br><br>
+        Mensagem: <br><input type="text" name = "nome" id = "" style="padding: 100px;"; required>  <br><br>
+    </fieldset>
+   
+    
+    <fieldset>
+        <legend>Como prefere receber nosso contato?</legend> <br> 
+        Whatsapp: <input type= "radio" name = "contatos" id="" value="whats" required> <br><br>
+        Email: <input type= "radio" name = "contatos" id="" value="email" required> <br><br>
+        Celular: <input type= "radio" name = "contatos" id="" value="celular" required> <br><br> 
+    </fieldset>
+
+    <fieldset>
+        <legend>Qual horário prefere ser atendido?</legend> <select id="2" name="contatos" required>
+            
+            <option value="ma">Manhã</option>
+            <option value="ta">Tarde</option>
+            <option value="no">Noite</option>
+        </select> <br><br>
+
+    </fieldset>
+    <br>
+    Gostaria de receber nossas novidades por email? <input type="checkbox">
+
+    <br><br>
+    <button formaction="http://localhost:3004/agendamento" style="font-size: 20px;"> Agendar </button> <br> <br>
+
+   
+    <table>
+        <th>DIA</th>
+        <th>HORÁRIOS</th>
+        
+    <tr>
+            <td>Segunda</td> 
+            <td>08h - 22h</td>
+    </tr>
+    <tr>
+            <td>Quarta</td>  
+            <td>08h - 22h</td>
+    </tr>
+    <tr>
+            <td>Terça</td>
+            <td>08h - 22h</td>
+    </tr>
+   
+    </table>
+
+    <style>
+        tr, td{
+            border: solid 1px black;
+            padding: 30px;
+        }
+        th{
+            background-color: rgb(36, 35, 35);
+            font-weight: bold;
+            color: aliceblue;
+            padding: 20px;
+        }
+        th:hover{
+            background-color: blanchedalmond;
+            color: black;
+        }
+
+    </style>
+
+<br><br>
+    <a href="barbearia.html"> Home  |</a> 
+    <a href="produtos.html"> Produtos</a>
+
+
+<p style="text-align: center;">Página 3 - contato</p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Dados Pessoais</h1>
+    <legend>Cadastro do Cliente</legend>
+    <form autocomplete="on" method="POST">
+    <fieldset>
+        Nome: <input type="text" name = "nome" id = "" placeholder="Digite seu nome" required>  <br><br>
+        Sexo: <input type= "radio" name = "genero" id="" value="Feminino" required> Feminino <input type= "radio" name = "genero" id="" value="masculino" required> Masculino <br><br>
+        Idade: <input type="number" name = "idade" id = "" placeholder="Digite sua idade" required> <br><br>
+        Endereço: <input type="text" name = "endereço" id = "" placeholder="Digite seu endereço" required> <br><br>
+        Cidade: <input type="text" name = "cidade" id = "" placeholder="Digite sua cidade" required> <br><br>
+        Estado: <select name="estado" required>
+            <option value="">UF</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="ba">Bahia</option>
+            <option value="pa">Pará</option>
+        </select> <br><br>
+        CEP: <input type="text" name = "cep" id = "" placeholder="Digite seu cep" required> <br><br>
+        Tel/Res: <input type="text" name = "tel/res" id = "" placeholder="(xx)xxxxx-xxxx" required> <br><br>
+        Tel/Cel: <input type="text" name = "tel/cel" id = "" placeholder="(xx)xxxxx-xxxx" required> <br><br>
+        Email: <input type="text" name = "email" id = "" placeholder="Digite seu email" required> <br><br>
+    
+    </fieldset>
+    <button formaction="http://localhost:3003/usuarios"> Cadastrar </button>
+    
+    </form>
+    <style>
+        fieldset{
+            border-width: 5px;
+            padding: 5px;
+        }
+        
+    </style>
+</body>
+</html>
